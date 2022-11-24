@@ -95,7 +95,9 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-grey-300"
-              href="/"
+              href="https://www.facebook.com/roman.tazhdynov"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Facebook <FaFacebook size={30} />
             </a>
@@ -103,23 +105,29 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-grey-300"
-              href="/"
+              href="https://github.com/tajdinov"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               GitHub <FaGithub size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
-            <a
+            <button
               className="flex justify-between items-center w-full text-grey-300"
-              href="/"
+              onClick={() =>
+                (window.location = "mailto:tajdinov@gmail.com.com")
+              }
             >
               Email <HiOutlineMail size={30} />
-            </a>
+            </button>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-grey-300"
-              href="/"
+              href="https://drive.google.com/file/d/11k5LfsVcDYHuCnvDQM5MKgfRV5974Hw_/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
