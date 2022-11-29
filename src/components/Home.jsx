@@ -10,13 +10,13 @@ const Home = () => {
       {/* container */}
       <div className="max-v-[1000px] mx-auto px-8 flex flex-col justify-center h-full lg:pl-[100px]">
         <p className="text-[#b9c9ff]">Hi, my name is</p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
+        <h1 className="animate-me text-4xl sm:text-7xl font-bold text-[#ccd6f6] ">
           Roman Tazhdynov
         </h1>
-        <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
+        <h2 className="animate-me text-4xl sm:text-7xl font-bold text-[#8892b0] ">
           I'm a full stack developer.
         </h2>
-        <p className="text-[#8892b0] py-4 max-w-[700px]">
+        <p className="tanimate-me ext-[#8892b0] py-4 max-w-[700px] text-[#ccd6f6] ">
           Aspiring full-stack web developer utilising marketing and business
           background to build a more intuitive user experience on the web.
         </p>

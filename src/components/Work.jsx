@@ -86,7 +86,7 @@ const Work = () => {
                 </span>
                 <div className=" pt-8 text-center">
                   <a
-                    href={project.code}
+                    href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -95,7 +95,7 @@ const Work = () => {
                     </button>
                   </a>
                   <a
-                    href={project.link}
+                    href={project.code}
                     target="_blank"
                     rel="noopener noreferrer"
                   >

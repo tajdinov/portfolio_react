@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Logo from "../assets/RT.png";
+import background from "../assets/tree.png";
 import { FaBars, FaTimes, FaGithub, FaFacebook } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -9,8 +10,23 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
+  const [offsetY, setOffsetY] = useState(0);
+  const handleScroll = () => setOffsetY(window.pageYOffset);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+      <img
+        className="background-triangles -z-50"
+        style={{ transform: `translateY(${offsetY * 0.1}px)` }}
+        src={background}
+        alt="background"
+      />
       <div>
         <img
           className="ml-[-30px]"
@@ -19,7 +35,6 @@ const Navbar = () => {
           style={{ width: "150px" }}
         />
       </div>
-
       {/* menu */}
       <ul className="hidden md:flex">
         <li>
@@ -48,12 +63,10 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-
       {/* Hamburger */}
       <div onClick={handleClick} className="md:hidden z-10">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
-
       {/* Mobile menu */}
       <ul
         className={
@@ -88,7 +101,6 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-
       {/* Social icons */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
