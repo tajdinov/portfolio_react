@@ -4,9 +4,13 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 
+body {
+  background-color: #0a192f;
+}
+
 @layer base {
   body {
-    @apply font-[Raleway];
+    @apply font-[Quicksand];
   }
   li {
     @apply px-4;
@@ -19,7 +23,7 @@
   background-size: contain;
   background-position: center;
   height: 250px;
-  transition: all 1s ease;
+  transition: all 3s ease;
 }
 
 .content-div:hover {
@@ -31,9 +35,11 @@
 }
 
 .background-triangles {
+  background: url("./assets/tree.png");
   height: 1280px;
+  width: 1000px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   position: absolute;
   top: 0;
   right: 0;

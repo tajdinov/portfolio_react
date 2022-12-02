@@ -1,12 +1,10 @@
 import React, { useState } from "react";
 
-import Dnd from "../assets/dnd.png";
 import project1 from "../assets/screenshot.png";
 import project2 from "../assets/Screenshot-main.jpeg";
 import project3 from "../assets/users.png";
 import project4 from "../assets/download.png";
 import project5 from "../assets/main.png";
-import project6 from "../assets/welcome.png";
 import project7 from "../assets/recordstore.png";
 
 const Work = () => {
@@ -62,7 +60,7 @@ const Work = () => {
   ]);
 
   return (
-    <div name="work" className=" w-full md:h-screen text-gray-300 bg-[#0a192f]">
+    <div name="work" className=" w-full md:h-screen text-gray-300">
       <div className=" max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className=" pb-8">
           <p className=" text-4xl font-bold inline border-b-4 text-gray-300 border-[#b9c9ff]">
@@ -71,7 +69,7 @@ const Work = () => {
         </div>
 
         {/* container */}
-        <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-4 z-10">
+        <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* card */}
           {projects.map((project) => (
             <div
@@ -80,7 +78,7 @@ const Work = () => {
               key={project.id}
             >
               {/* hover */}
-              <div className=" opacity-0 group-hover:opacity-100">
+              <div className=" opacity-0 group-hover:opacity-100 duration-500">
                 <span className=" text-2xl font-bold text-white inline tracking-wider">
                   {project.title}
                 </span>
