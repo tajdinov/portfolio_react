@@ -74,12 +74,12 @@ const Work = () => {
           {projects.map((project) => (
             <div
               style={{ backgroundImage: `url(${project.image})` }}
-              className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+              className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
               key={project.id}
             >
               {/* hover */}
-              <div className=" opacity-0 group-hover:opacity-100 duration-500">
-                <span className=" text-2xl font-bold text-white inline tracking-wider">
+              <div className=" opacity-0 group-hover:opacity-100 bg-gradient-to-r from-sky-500 to-indigo-500 rounded-md w-full h-full duration-500 ">
+                <span className="flex justify-center text-2xl font-bold text-white tracking-wider mt-[60px]">
                   {project.title}
                 </span>
                 <div className=" pt-8 text-center">
