@@ -29,7 +29,7 @@ const Navbar = () => {
         <div>
           <Link to="home" smooth={true} duration={500}>
             <img
-              className="ml-[-30px]"
+              className="ml-[-30px] hidden md:flex"
               src={Logo}
               alt="Logo Image"
               style={{ width: "150px" }}
