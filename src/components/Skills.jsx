@@ -51,7 +51,7 @@ const Skills = () => {
             Skills
           </p>
           <p className=" py-4">
-            Some of the technologies I've worked with...
+            Some of the technologies...
             <span className="pl-2" ref={el}></span>
           </p>
         </div>
