@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import project1 from "../assets/screenshot.png";
-import project2 from "../assets/Screenshot-main.jpeg";
+import project2 from "../assets/YouTrailer.png";
 import project3 from "../assets/users.png";
 import project4 from "../assets/download.png";
 import project5 from "../assets/main.png";
@@ -21,8 +21,8 @@ const Work = () => {
       title: "YouTrailer",
       body: "YouTrailer is a library of trailers for different types of entertainment, whether it is movies, tv shows, video games or other sources of video entertainment.",
       image: project2,
-      code: "https://github.com/SamMarch/DnD-Character-Generator.git",
-      link: "https://carolinemae.github.io/YouTrailer/",
+      code: "https://github.com/tajdinov/YouTrailer_React.git",
+      link: "https://youtrailer-7a21c.web.app/",
       id: 2,
     },
     {
@@ -54,7 +54,7 @@ const Work = () => {
       body: "An e-commerce store for people who love music, DJs, collectors and those who just want to be on track with the latest news.",
       image: project7,
       code: "https://github.com/tajdinov/Record-Store.git",
-      link: "https://intense-beach-26403.herokuapp.com/",
+      link: "https://record-store-production.up.railway.app/",
       id: 7,
     },
   ]);
