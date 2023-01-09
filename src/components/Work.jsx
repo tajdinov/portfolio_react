@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import project1 from "../assets/screenshot.png";
-import project2 from "../assets/YouTrailer.png";
+import project2 from "../assets/Youtrailer.png";
 import project3 from "../assets/users.png";
 import project4 from "../assets/download.png";
 import project5 from "../assets/main.png";

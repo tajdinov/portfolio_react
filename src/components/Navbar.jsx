@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Logo from "../assets/RT.png";
-import background from "../assets/tree.png";
+
 import { FaBars, FaTimes, FaGithub, FaFacebook } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -31,7 +31,7 @@ const Navbar = () => {
             <img
               className="ml-[-30px] hidden md:flex"
               src={Logo}
-              alt="Logo Image"
+              alt="LogoImage"
               style={{ width: "150px" }}
             />
           </Link>
@@ -65,7 +65,7 @@ const Navbar = () => {
           </li>
         </ul>
         {/* Hamburger */}
-        <div onClick={handleClick} className="md:hidden">
+        <div onClick={handleClick} className="md:hidden z-50 cursor-pointer">
           {!nav ? <FaBars /> : <FaTimes />}
         </div>
         {/* Mobile menu */}
