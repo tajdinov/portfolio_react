@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio_react/static/css/main.4724172c.css",
+    "main.js": "/portfolio_react/static/js/main.dac4ff02.js",
+    "static/media/screenshot.png": "/portfolio_react/static/media/screenshot.f384877b13434632d43d.png",
+    "static/media/Youtrailer.png": "/portfolio_react/static/media/Youtrailer.d3db8264332c3192fdf1.png",
+    "static/media/recordstore.png": "/portfolio_react/static/media/recordstore.71790886d4c9b90fe35e.png",
+    "static/media/download.png": "/portfolio_react/static/media/download.b84cabf5e3845020a43e.png",
+    "static/media/users.png": "/portfolio_react/static/media/users.35dd996b30a45dc8ce42.png",
+    "static/media/main.png": "/portfolio_react/static/media/main.0515e550cea477b97c11.png",
+    "static/media/tree.png": "/portfolio_react/static/media/tree.ece4d9d3f2973cd8d7cc.png",
+    "static/media/react.png": "/portfolio_react/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/portfolio_react/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/mongo.png": "/portfolio_react/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/RT.png": "/portfolio_react/static/media/RT.a2e1ab35ed5926f79576.png",
+    "static/media/html.png": "/portfolio_react/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/css.png": "/portfolio_react/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/portfolio_react/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/portfolio_react/index.html",
+    "main.4724172c.css.map": "/portfolio_react/static/css/main.4724172c.css.map",
+    "main.dac4ff02.js.map": "/portfolio_react/static/js/main.dac4ff02.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4724172c.css",
+    "static/js/main.dac4ff02.js"
+  ]
+}
