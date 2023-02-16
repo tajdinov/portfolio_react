@@ -13,8 +13,8 @@ const Work = () => {
       title: "Character Generator",
       body: "This is a full stack web application that creates, updates, reads, and deletes a DnD Character.",
       image: project1,
-      code: "https://github.com/SamMarch/DnD-Character-Generator.git",
-      link: "https://project-2-character-creator.herokuapp.com/",
+      code: "https://github.com/tajdinov/DnD-Character-Generator.git",
+      link: "https://dnd-character-generator-production.up.railway.app/",
       id: 1,
     },
     {
