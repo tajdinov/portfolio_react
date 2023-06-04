@@ -3,15 +3,15 @@ import React, { useState } from "react";
 import project1 from "../assets/screenshot.png";
 import project2 from "../assets/Youtrailer.png";
 import project3 from "../assets/users.png";
-import project4 from "../assets/download.png";
+import project4 from "../assets/dalle.png";
 import project5 from "../assets/main.png";
-import project7 from "../assets/recordstore.png";
+import project6 from "../assets/recordstore.png";
 
 const Work = () => {
   const [projects, setProjects] = useState([
     {
       title: "Character Generator",
-      body: "This is a full stack web application that creates, updates, reads, and deletes a DnD Character.",
+      body: "Handlebars Node JS Express JS MySQL Tailwind",
       image: project1,
       code: "https://github.com/tajdinov/DnD-Character-Generator.git",
       link: "https://dnd-character-generator-production.up.railway.app/",
@@ -19,7 +19,7 @@ const Work = () => {
     },
     {
       title: "YouTrailer",
-      body: "YouTrailer is a library of trailers for different types of entertainment, whether it is movies, tv shows, video games or other sources of video entertainment.",
+      body: "React JS Firebase Tailwind",
       image: project2,
       code: "https://github.com/tajdinov/YouTrailer_React.git",
       link: "https://youtrailer-7a21c.web.app/",
@@ -27,23 +27,23 @@ const Work = () => {
     },
     {
       title: "Social Network API",
-      body: "API for a social network web application where users can share thoughts, react to thoughts, and create a friend list.",
+      body: "Mongoose Express JS",
       image: project3,
       code: "https://github.com/tajdinov/Social-Network-API.git",
       link: "https://drive.google.com/file/d/1R4HCIxJeTMtqoY8R4tDfzTzocNb6IDQB/view",
       id: 3,
     },
     {
-      title: "PWA Text Editor",
-      body: "Single page text editor that runs in the browser as well as offline.",
+      title: "DALL-E 2.0",
+      body: "React JS Node JS Express JS Mongoose Tailwind Open AI",
       image: project4,
-      code: "https://github.com/tajdinov/Social-Network-API.git",
-      link: "https://drive.google.com/file/d/1R4HCIxJeTMtqoY8R4tDfzTzocNb6IDQB/view",
+      code: "https://github.com/tajdinov/pictureGen",
+      link: "https://picturegenerator.online/",
       id: 4,
     },
     {
       title: "Tech Blog",
-      body: "CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.",
+      body: "MySQL Express JS",
       image: project5,
       code: "https://github.com/tajdinov/Tech-Blog.git",
       link: "https://polar-tundra-36305.herokuapp.com/",
@@ -51,11 +51,11 @@ const Work = () => {
     },
     {
       title: "Record-Store",
-      body: "An e-commerce store for people who love music, DJs, collectors and those who just want to be on track with the latest news.",
-      image: project7,
+      body: "React JS Node JS Express JS Mongoose Tailwind Open AI",
+      image: project6,
       code: "https://github.com/tajdinov/Record-Store.git",
       link: "https://record-store-production.up.railway.app/",
-      id: 7,
+      id: 6,
     },
   ]);
 
@@ -79,10 +79,13 @@ const Work = () => {
             >
               {/* hover */}
               <div className=" opacity-0 group-hover:opacity-100 bg-gradient-to-r from-sky-500 to-indigo-500 rounded-md w-full h-full duration-500 ">
-                <span className="flex justify-center text-2xl font-bold text-white tracking-wider mt-[60px]">
+                <span className="flex justify-center text-xl font-bold text-white tracking-wider mt-[60px]">
                   {project.title}
                 </span>
-                <div className=" pt-8 text-center">
+                <span className="flex justify-center text-center text-sm font-bold text-white tracking-wider mt-1">
+                  {project.body}
+                </span>
+                <div className=" pt-6 text-center">
                   <a
                     href={project.link}
                     target="_blank"
